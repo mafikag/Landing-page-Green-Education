@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&display=swap');
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar-brand{
+    color: #000;
+    font-weight: 700;
+}
+
+.nav-link{
+    color: #000;
+    font-weight: 500;
+}
+
+.jumbotron {
+    background-color: #4E944F;
+    background-size: cover;
+    height: 49.5rem;
+}
+
+.text-home{
+    text-align: center;
+    padding-top: 25%;
+    color: #E9EFC0;
+}
+
+.text-home h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.text-home p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#About{
+    background-color: #83BD75;
+    height: 49.5rem;
+}
+
+.title-about h2{
+    color: #E9EFC0;
+    text-align: center;
+    font-weight: 700;
+}
+
+.content-about{
+    width: 60%;
+    text-align: center;
+    margin-left: 16rem;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.wave-about .bottom{
+    position: absolute;
+    width: 100rem;
+    left: 0;
+}
+
+#design {
+    background-color: #B4E197;
+    padding-bottom: 300px;
+}
+
+.title-design h2{
+    color: #4E944F;
+    text-align: center;
+    font-weight: 700;
+}
+
+.card {
+    position: relative;
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+.img-title {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    color: #E9EFC0;
+    background-color: rgba(5, 5, 5, 0.7);
+    top: 300px;
+    transition: all 0.5s ease-in;
+}
+
+.card.mid img{
+    height: 235px;
+    width: 415px;
+}
+
+.card.end img{
+    height: 235px;
+    width: 415px;
+    object-fit: cover;
+}
+.card.bot-start img{
+    height: 235px;
+    width: 415px;
+    object-fit: cover;
+}
+.card.bot-end img{
+    height: 235px;
+    width: 415px;
+    object-fit: cover;
+}
+
+.img-title h3 {
+    position: relative;
+    top: 115px;
+    text-shadow: rgba(5, 5, 5, 0.5);
+}
+
+.img-title h4 {
+    position: relative;
+    top: 115px;
+    text-shadow: rgba(5, 5, 5, 0.5);
+}
+
+.card:hover .img-title {
+    top: 0;
+    transition: all 0.5s ease-out;
+}
+
+.card img {
+    transform: scale(1);
+    transition: all 0.3s ease-out;
+}
+
+.card:hover img {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in;
+}
+
+.wave-design.bottom{
+    position: absolute;
+    width: 100rem;
+    left: 0;
+}
+
+#testimoni {
+    background-color: #83BD75;
+    height: 49.5rem;
+}
+
+.carousel{
+    margin-top: 50px;
+}
+
+.title-testi h2{
+    color: #E9EFC0;
+    font-weight: 700;
+}
+
+.avatar img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+}
+
+.avatar p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#contact{
+    background-color: #B4E197;
+    height: 42rem;
+}
+
+.title-contact{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.title-contact h2{
+    color: #4E944F;
+    font-weight: 700;
+}
+
+.content-contact{
+    margin-left: 170px;
+    margin-top: 50px;
+}
+
+.content-contact h2{
+    font-weight: 700;
+}
+
+.content-contact p{
+    font-weight: 500;
+}
+
+.image-contact img{
+    position: absolute;
+    margin-left: 48%;
+    top: 224.2rem;
+}
+
+.image-contact p{
+    position: absolute;
+    top: 248.8rem;
+    margin-left: 48.5%;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+section#About,#design,#testimoni{
+    padding-top: 5rem;
+}
+
+footer{
+    background-color: #4E944F;
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+}
